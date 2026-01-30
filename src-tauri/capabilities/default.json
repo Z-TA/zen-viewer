@@ -1,0 +1,39 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": [
+    "*"
+  ],
+  "permissions": [
+    "dialog:default",
+    "core:default",
+    "store:default",
+    "core:window:allow-is-always-on-top",
+    "core:window:allow-set-always-on-top",
+    "clipboard-manager:default",
+    "clipboard-manager:allow-clear",
+    "clipboard-manager:allow-write-image",
+    "clipboard-manager:allow-write-text",
+    "core:window:allow-set-size",
+    "core:window:allow-set-position",
+    "core:window:allow-start-dragging",
+    "core:window:allow-set-simple-fullscreen",
+    "core:window:allow-set-fullscreen",
+    "core:window:allow-is-fullscreen",
+    "core:window:allow-center",
+    "core:window:allow-current-monitor",
+    "opener:default",
+    "core:window:allow-minimize",
+    "core:window:allow-destroy",
+    "core:window:allow-maximize",
+    "core:window:allow-unmaximize",
+    "core:window:allow-toggle-maximize",
+    "core:window:allow-close",
+    "opener:allow-open-path",
+    "opener:allow-default-urls",
+    "opener:allow-open-url",
+    "opener:allow-reveal-item-in-dir",
+    "process:default"
+  ]
+}
